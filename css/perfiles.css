@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(rgba(140, 192, 222, 1), rgba(0, 0, 0, 0.01)),
+        url(http://localhost/proyecto/public/img/notas-adhesivas-colores-sobre-fondo-azul.avif);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    padding: 0 20px; /* Adjust padding as per your design */
+}
+
+.logo img {
+    width: 80px;
+}
+
+.menu .navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu .navbar ul li {
+    margin-left: 15px; /* Adjust spacing between menu items */
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 10px 15px; /* Adjust padding as per your design */
+    color: #ffffff;
+    font-weight: 600;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.menu .navbar ul li a:hover {
+    color: #FFD9C0;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+    cursor: pointer;
+}
+
+.menu label {
+    cursor: pointer;
+}
+
+body {
+    background: #f5f5f5;
+    margin: 20px 0; /* Adjust margin as per your design */
+}
+
+.ui-w-80 {
+    width: 80px !important;
+    height: auto;
+}
+
+.btn-default {
+    border-color: rgba(24, 28, 33, 0.1);
+    background: transparent;
+    color: #4E5155;
+}
+
+label.btn {
+    margin-bottom: 0;
+}
+
+.btn-outline-primary {
+    border-color: #26B4FF;
+    background: transparent;
+    color: #26B4FF;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.text-light {
+    color: #babbbc !important;
+}
+
+.btn-facebook {
+    border-color: transparent;
+    background: #3B5998;
+    color: #fff;
+}
+
+.btn-instagram {
+    border-color: transparent;
+    background: #000;
+    color: #fff;
+}
+
+.card {
+    background-clip: padding-box;
+    box-shadow: 0 1px 4px rgba(24, 28, 33, 0.012);
+}
+
+.row-bordered {
+    overflow: hidden;
+}
+
+.account-settings-fileinput {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4E5155 !important;
+}
+
+.material-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.material-style .account-settings-links .list-group-item.active {
+    color: #4E5155 !important;
+}
+
+.dark-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+.dark-style .account-settings-links .list-group-item.active {
+    color: #fff !important;
+}
